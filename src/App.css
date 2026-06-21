@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -105,11 +105,94 @@ button{
 
 
     
+} */
+
+
+.main4{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+   
+
+
 }
 
-.forget{
-    margin-left: auto;
-    color: #007bff;
-    cursor: pointer;
-    font-size: 14px;
+form{
+
+margin-top: 50px;
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.342);
+
+    width: 100vh;
+    
+    background: #fcfcfc;
+    border-radius: 10px;
+    
+
 }
+
+.mobile{
+
+    display: flex;
+    
+}
+
+.green{
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    font-size: larger;
+    
+}
+
+h3{
+    color: rgb(249, 132, 90);
+}
+
+input{
+    padding: 8px;
+    
+margin-right: 20px;
+    
+}
+#number{
+       width: 100vw;
+}
+
+.button2{
+    padding: 10px;
+    background-color: rgb(255, 119, 0) ;
+    color: white;
+    border: none;
+}
+p{
+    font-size: 10px;
+    color: blue;
+    font-weight: bold;
+}
+
+.data{
+    padding: 10px;  
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.button2:hover{
+   
+    background-color: white;
+    color: rgb(255, 115, 0)  ;
+    border: 2px solid  rgb(255, 119, 0)  ;
+   
+}
+
+input:hover{
+      transition: 1s;
+  transform: scale( 1.1);
+}
+

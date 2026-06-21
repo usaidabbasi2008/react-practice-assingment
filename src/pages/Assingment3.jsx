@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../App.css";
+
 
 export const Assingment3 = () => {
   let [text, settext] = useState("");
@@ -58,6 +58,7 @@ export const Assingment3 = () => {
           <input
             type="checkbox"
             id="checkbox"
+            
             onChange={(e) => setcheckbox(e.target.checked)}
           />
 
